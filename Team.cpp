@@ -4,7 +4,7 @@ using namespace std;
 
 Team::Team()
 {
-    Team_name = "Undifined";
+    Team_name = "Undefined";
     player_no = 0;
     points = 0;
 }
@@ -37,4 +37,10 @@ void Team::Leaderboard()
    
 }
 
+void Team::Bot_Counter()
+{
+    srand(time(0));
 
+    int num = rand() % 5+1;
+    points = points + num; 
+}
