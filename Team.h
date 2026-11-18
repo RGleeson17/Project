@@ -21,5 +21,5 @@ string get_Team_name(){return Team_name;};
 void add_points();
 int get_points(){return points;};
 void Leaderboard();
-
+// void botxcounter
 };
